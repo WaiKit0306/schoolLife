@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">schoolLife</string>
+    <string name="lbl_titleLogin">School Of Life</string>
+    <string name="lbl_loginTitle2">Sign Up For Free</string>
+</resources>
