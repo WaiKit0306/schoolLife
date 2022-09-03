@@ -6,116 +6,25 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <EditText
-        android:id="@+id/editName"
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/btmNavView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </FrameLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/btmNavView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Full Name"
-        android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="71dp"
-        tools:layout_editor_absoluteY="196dp" />
-
-    <TextView
-        android:id="@+id/lbl_fullName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Full Name"
-        tools:layout_editor_absoluteX="71dp"
-        tools:layout_editor_absoluteY="177dp" />
-
-    <TextView
-        android:id="@+id/lbl_loginTitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/lbl_titleLogin"
-        tools:layout_editor_absoluteX="146dp"
-        tools:layout_editor_absoluteY="88dp" />
-
-    <TextView
-        android:id="@+id/lbl_loginTitle2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/lbl_loginTitle2"
-        tools:layout_editor_absoluteX="146dp"
-        tools:layout_editor_absoluteY="128dp" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Email"
-        tools:layout_editor_absoluteX="71dp"
-        tools:layout_editor_absoluteY="244dp" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Phone Number"
-        tools:layout_editor_absoluteX="70dp"
-        tools:layout_editor_absoluteY="318dp" />
-
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Birthday"
-        tools:layout_editor_absoluteX="70dp"
-        tools:layout_editor_absoluteY="400dp" />
-
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Password"
-        tools:layout_editor_absoluteX="69dp"
-        tools:layout_editor_absoluteY="466dp" />
-
-    <Spinner
-        android:id="@+id/spin_day"
-        android:layout_width="67dp"
-        android:layout_height="29dp"
-        tools:layout_editor_absoluteX="71dp"
-        tools:layout_editor_absoluteY="419dp" />
-
-    <Spinner
-        android:id="@+id/spin_month"
-        android:layout_width="67dp"
-        android:layout_height="29dp"
-        tools:layout_editor_absoluteX="154dp"
-        tools:layout_editor_absoluteY="419dp" />
-
-    <Spinner
-        android:id="@+id/spin_year"
-        android:layout_width="67dp"
-        android:layout_height="29dp"
-        tools:layout_editor_absoluteX="234dp"
-        tools:layout_editor_absoluteY="419dp" />
-
-    <EditText
-        android:id="@+id/editTextTextPassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPassword"
-        tools:layout_editor_absoluteX="69dp"
-        tools:layout_editor_absoluteY="485dp" />
-
-    <CheckBox
-        android:id="@+id/ckBox_Term"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="I agree Term & Conditions"
-        tools:layout_editor_absoluteX="69dp"
-        tools:layout_editor_absoluteY="541dp" />
-
-    <Button
-        android:id="@+id/submitButton"
-        android:layout_width="247dp"
-        android:layout_height="50dp"
-        android:text="Sign Up "
-        tools:layout_editor_absoluteX="69dp"
-        tools:layout_editor_absoluteY="642dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
