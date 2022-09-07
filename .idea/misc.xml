@@ -3,9 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/ASProject/schoolLife/app/src/main/res/drawable/button_background.xml" value="0.164" />
+        <entry key="..\:/ASProject/schoolLife/app/src/main/res/drawable/edit_text_shape.xml" value="0.1635" />
         <entry key="..\:/ASProject/schoolLife/app/src/main/res/drawable/ic_baseline_amp_stories_24.xml" value="0.1" />
+        <entry key="..\:/ASProject/schoolLife/app/src/main/res/drawable/shape_text_button.xml" value="0.1" />
+        <entry key="..\:/ASProject/schoolLife/app/src/main/res/layout/activity_first.xml" value="0.2" />
         <entry key="..\:/ASProject/schoolLife/app/src/main/res/layout/activity_main.xml" value="0.2" />
-        <entry key="..\:/ASProject/schoolLife/app/src/main/res/layout/activity_register.xml" value="0.4" />
+        <entry key="..\:/ASProject/schoolLife/app/src/main/res/layout/activity_register.xml" value="0.264" />
         <entry key="..\:/ASProject/schoolLife/app/src/main/res/menu/bottom_nav.xml" value="0.24895833333333334" />
       </map>
     </option>
