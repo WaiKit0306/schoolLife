@@ -2,4 +2,6 @@
     <string name="app_name">schoolLife</string>
     <string name="lbl_titleLogin">School Of Life</string>
     <string name="lbl_loginTitle2">Sign Up For Free</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Home</string>
 </resources>
