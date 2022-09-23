@@ -7,15 +7,18 @@
         <entry key="..\:/ASProject/schoolLife/app/src/main/res/drawable/button_background.xml" value="0.164" />
         <entry key="..\:/ASProject/schoolLife/app/src/main/res/drawable/edit_text_shape.xml" value="0.1635" />
         <entry key="..\:/ASProject/schoolLife/app/src/main/res/drawable/ic_baseline_amp_stories_24.xml" value="0.1" />
+        <entry key="..\:/ASProject/schoolLife/app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.1585" />
         <entry key="..\:/ASProject/schoolLife/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.175" />
         <entry key="..\:/ASProject/schoolLife/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.175" />
+        <entry key="..\:/ASProject/schoolLife/app/src/main/res/drawable/ic_launcher_background.xml" value="0.122" />
         <entry key="..\:/ASProject/schoolLife/app/src/main/res/drawable/rounded_button.xml" value="0.2545" />
         <entry key="..\:/ASProject/schoolLife/app/src/main/res/drawable/rounded_edtext.xml" value="0.1" />
+        <entry key="..\:/ASProject/schoolLife/app/src/main/res/drawable/rounded_errortext.xml" value="0.1" />
         <entry key="..\:/ASProject/schoolLife/app/src/main/res/drawable/shape_text_button.xml" value="0.1" />
         <entry key="..\:/ASProject/schoolLife/app/src/main/res/layout/activity_first.xml" value="0.1" />
         <entry key="..\:/ASProject/schoolLife/app/src/main/res/layout/activity_main.xml" value="0.2" />
-        <entry key="..\:/ASProject/schoolLife/app/src/main/res/layout/activity_register.xml" value="0.2" />
-        <entry key="..\:/ASProject/schoolLife/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/ASProject/schoolLife/app/src/main/res/layout/activity_register.xml" value="0.4" />
+        <entry key="..\:/ASProject/schoolLife/app/src/main/res/layout/fragment_home.xml" value="0.152" />
         <entry key="..\:/ASProject/schoolLife/app/src/main/res/layout/fragment_profile.xml" value="0.1" />
         <entry key="..\:/ASProject/schoolLife/app/src/main/res/menu/bottom_nav.xml" value="0.24895833333333334" />
       </map>

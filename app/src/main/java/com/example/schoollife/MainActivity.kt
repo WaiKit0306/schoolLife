@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
 
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
 
-        replaceFragement(homeFragment())
+
         binding.btmNavView.setOnItemSelectedListener {
         when(it.itemId)
         {
